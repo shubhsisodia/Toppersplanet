@@ -1,0 +1,235 @@
+ 
+html {
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    height: 590px;
+}
+
+body{
+    margin:0px;
+    background-color: buttonface;
+        font-family: "Roboto",sans-serif;
+    font-weight: 400;
+}
+
+/*********************************************HEADER*****************************************************************************************/
+#header_container{
+    width: 100%; height: 130px;
+}
+
+#header_nav2{
+    width: 100%;
+    height: 85px;
+    width: 1140px;
+    top: -0px;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 2;
+    margin: 0px auto;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2) !important;
+}
+
+#header_nav2 ul {
+    height: 80px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  
+}
+
+#header_nav2 ul li {
+  float: left;
+  position: relative;
+  height: 80px;
+  width: 120px;
+}
+
+#header_nav2 ul li a {
+  display: block;
+  text-align: center;
+  padding: 0px 8px;
+  top: -10px;
+  text-decoration: none;
+  height: 80px;
+    line-height: 80px;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    color: #a51c30;
+    width: 146px;
+}
+#header_nav2 ul li a i{
+    padding-right: 8px;
+}
+
+#header_nav2 ul li a:hover:not(.active) {
+  color: #0a7aa6;
+}
+
+#header_nav2 ul li a.active {
+  color: white;
+  background-color: #4CAF50;
+}
+
+
+/*********************FLIPBOOK CONTAINER***********/
+
+#menu-short{
+    width: 500px;
+    height: 60px;
+    float: right;
+    position: relative;
+    bottom: 10px;
+}
+#menu-short ul li{
+    height:60px;
+}
+#menu-short ul li a{
+    height:60px;
+}
+
+#mySidenav{
+    padding: 0;
+    list-style-type: none;
+}
+
+.side-nav {
+    position: fixed;
+    width: 0px;
+    left: 0;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    height: calc(100% + 60px);
+    height: -moz-calc(100%);
+    padding-bottom: 60px;
+    background-color: #fff;
+    z-index: 999;
+    backface-visibility: hidden;
+    overflow-y: auto;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: 0.5s; 
+    
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.side-nav li {
+    float: none;
+    line-height: 48px;
+}
+#mySidenav li {
+    list-style-type: none;
+}
+.side-nav .userView {
+    overflow: hidden;
+    position: relative;
+
+    margin-bottom: 8px;
+}
+.side-nav .userView .background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.userView img {
+    border: 0;
+}
+
+
+.collection {
+    margin: 0.5rem 0 1rem 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+}
+.collection .collection-item {
+    background-color: #fff;
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin: 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.collection .collection-item:hover {
+    background-color: #ede7e7;
+}
+
+.side-nav a {
+    color: rgba(0,0,0,0.87);
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 32px;
+  text-decoration: none;
+      -webkit-tap-highlight-color: transparent;
+}
+.collection .collection-item.active {
+    background-color: #26a69a;
+    color: #eafaf9;
+}
+.collection .collection-item {
+    background-color: #fff;
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin: 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.fixed-action-btn {
+    position: fixed;
+    right: 23px;
+    /* bottom: 23px; */
+    /* padding-top: 15px; */
+    /* margin-bottom: 0; */
+    z-index: 998;
+}
+.btn-floating {
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 37px;
+    height: 37px;
+    line-height: 37px;
+    padding: 0;
+    background-color: #26a69a;
+    border-radius: 50%;
+    transition: .3s;
+    cursor: pointer;
+    vertical-align: middle;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    background-color: #F44336 !important;
+    text-decoration: none;
+}
+.btn-floating i {
+    width: inherit;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 37px;
+}
+#sidenav-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 120vh;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 997;
+    will-change: opacity;
+}
+
+.fixed-action-btn :hover{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);   
+} 

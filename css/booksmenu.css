@@ -1,0 +1,268 @@
+ 
+html {
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    height: 590px;
+}
+
+body{
+    margin:0px;
+    background-color: buttonface;
+        font-family: "Roboto",sans-serif;
+    font-weight: 400;
+}
+
+/*********************************************HEADER*****************************************************************************************/
+#header_container{
+    width: 100%; height: 130px;
+}
+
+#header_nav2{
+    width: 100%;
+    height: 85px;
+    width: 1140px;
+    top: -0px;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 2;
+    margin: 0px auto;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2) !important;
+}
+
+#header_nav2 ul {
+    height: 80px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  
+}
+
+#header_nav2 ul li {
+  float: left;
+  position: relative;
+  height: 80px;
+  width: 120px;
+}
+
+#header_nav2 ul li a {
+  display: block;
+  text-align: center;
+  padding: 0px 8px;
+  top: -10px;
+  text-decoration: none;
+  height: 80px;
+    line-height: 80px;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    color: #a51c30;
+    width: 146px;
+}
+#header_nav2 ul li a i{
+    padding-right: 8px;
+}
+
+#header_nav2 ul li a:hover:not(.active) {
+  color: #0a7aa6;
+}
+
+#header_nav2 ul li a.active {
+  color: white;
+  background-color: #4CAF50;
+}
+
+#menu-short{
+    width: 500px;
+    height: 60px;
+    float: right;
+    position: relative;
+    bottom: 10px;
+}
+
+/***********************************************************************/
+
+.splash {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+    background: url(../pics/splash-bg.jpg) bottom left repeat-x;
+    -webkit-transition: height 1s;
+    -moz-transition: height 1s;
+    -ms-transition: height 1s;
+    -o-transition: height 1s;
+    transition: height 1s;
+}
+.splash .center {
+    width: 750px;
+    height: 700px;
+    margin: auto;
+    position: relative;
+    z-index: 0;
+    float: left;
+}
+.bookshelf {
+    margin-top: 140px;
+}
+.bookshelf .shelf {
+    width: 750px;
+    height: 440px;
+}
+.bookshelf .shelf .row-1 {
+    position: relative;
+    width: 625px;
+    height: 250px;
+    margin-left: 33px;
+}
+.bookshelf .shelf .row-1:after, .bookshelf .shelf .row-2:after {
+    background: url(../PICTURES/bookshelf/wall-bookshelf.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    width: 700px;
+    height: 210px;
+    display: block;
+    content: "";
+    margin-left: -38px;
+}
+.bookshelf .shelf .loc {
+   position: relative;
+    top: 15px;
+    width: 100%;
+    top: 0px;
+    height: 10px;
+}
+.bookshelf .shelf .loc > div {
+    width: 33%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.bookshelf .sample, .bookshelf-row .sample {
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    -ms-box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    -o-box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    -webkit-transition: -webkit-transform 0.1s;
+    -webkit-transform: translate(0, 0);
+    -moz-transition: -moz-transform 0.1s;
+    -moz-transform: translate(0, 0);
+    -ms-transition: -ms-transform 0.1s;
+    -ms-transform: translate(0, 0);
+    -o-transition: -o-transform 0.1s;
+    -o-transform: translate(0, 0);
+    transition: transform 0.1s;
+    transform: translate(0, 0);
+}
+
+.bookshelf .thumb1, .bookshelf-row .thumb1 {
+    background-image: url(../PICTURES/bookshelf/11phy1.jpg);
+    width: 120px;
+    height: 140px;
+    background-size: 100%;
+}
+
+.bookshelf .thumb2, .bookshelf-row .thumb2 {
+    background-image: url(../PICTURES/bookshelf/11chem1.jpg);
+    width: 120px;
+    height: 140px;
+    background-size: 100%;
+}
+.bookshelf .thumb3, .bookshelf-row .thumb3 {
+    background-image: url(../PICTURES/bookshelf/11math.jpg);
+    width: 120px;
+    height: 140px;
+    background-size: 100%;
+    
+}
+.bookshelf .shelf .row-2 {
+    position: relative;
+    margin-top: 20px;
+    width: 625px;
+    height: 140px;
+    margin-left: 33px;
+}
+
+.bookshelf .shelf .row-2:after {
+    height: 212px;
+}
+
+.bookshelf .thumb4, .bookshelf-row .thumb4 {
+    background-image: url(../PICTURES/bookshelf/12phy1.jpg);
+    width: 120px;
+    height: 140px;
+    background-size: 100%;
+    
+}
+.bookshelf .thumb5, .bookshelf-row .thumb5 {
+    background-image: url(../PICTURES/bookshelf/12chem1.jpg);
+    width: 120px;
+    height: 140px;
+    background-size: 100%;
+    
+}
+.bookshelf .thumb6, .bookshelf-row .thumb6 {
+    background-image: url(../PICTURES/bookshelf/12math1.jpg);
+   width: 120px;
+    height: 140px;
+    background-size: 100%;
+    
+}
+.bookshelf .hover:hover{
+    z-index: 2;
+    cursor: none;
+    background-color: white;
+    -ms-transform: scaleY(1.5);
+    -webkit-transform: scaleY(1.5); 
+     /*transform: scaleY(1.1); */
+     transform: scale3d(1.1,1.1,1);
+     transition-duration: 50;
+     -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+}
+.bookshelf .suggestion {
+    font: 12px 'District Thin', helvetica, arial;
+    color: #999;
+    text-align: center;
+    line-height: 40px;
+    font-size: x-large;
+    position: relative;
+    top: 40px;
+}
+
+#logo1212 .classlogo{
+    
+}
+
+.classlogo{
+    width: 160px;
+    height: 160px;
+    margin-top: 150px;
+    float: left;
+    background-size: 100%;
+}
+
+.classimg2{
+    
+      position: relative;
+    top: 280px;
+    right: 155px;
+}
+
+.rotate img{
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+.rotate img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}

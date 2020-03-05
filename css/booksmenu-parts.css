@@ -1,0 +1,264 @@
+ 
+html {
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    height: 590px;
+}
+
+body{
+    margin:0px;
+    background-color: buttonface;
+        font-family: "Roboto",sans-serif;
+    font-weight: 400;
+}
+
+/*********************************************HEADER*****************************************************************************************/
+#header_container{
+    width: 100%; height: 130px;
+}
+
+#header_nav2{
+    width: 100%;
+    height: 85px;
+    width: 1140px;
+    top: -0px;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 2;
+    margin: 0px auto;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2) !important;
+}
+
+#header_nav2 ul {
+    height: 80px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  
+}
+
+#header_nav2 ul li {
+  float: left;
+  position: relative;
+  height: 80px;
+  width: 120px;
+}
+
+#header_nav2 ul li a {
+  display: block;
+  text-align: center;
+  padding: 0px 8px;
+  top: -10px;
+  text-decoration: none;
+  height: 80px;
+    line-height: 80px;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    color: #a51c30;
+    width: 146px;
+}
+#header_nav2 ul li a i{
+    padding-right: 8px;
+}
+
+#header_nav2 ul li a:hover:not(.active) {
+  color: #0a7aa6;
+}
+
+#header_nav2 ul li a.active {
+  color: white;
+  background-color: #4CAF50;
+}
+
+#menu-short{
+    width: 500px;
+    height: 60px;
+    float: right;
+    position: relative;
+    bottom: 10px;
+}
+
+/***********************************************************************/
+
+
+.splash .center {
+    margin-left: 200px;
+    width: 600px;
+    height: 750px;
+    margin: auto;
+    position: relative;
+    z-index: 0;
+    float: left;
+}
+.bookshelf {
+    margin-top: 140px;
+}
+.bookshelf .shelf {
+    width: 750px;
+    height: 440px;
+}
+.bookshelf .shelf .row-1 {
+    position: relative;
+    width: 625px;
+    height: 250px;
+    margin-left: 33px;
+}
+.bookshelf .shelf .row-1:after {
+    background: url(../PICTURES/bookshelf/wall-bookshelf-half.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    width: 700px;
+    height: 210px;
+    display: block;
+    content: "";
+    margin-left: -38px;
+}
+.bookshelf .shelf .row-2:after{
+      background: url(../PICTURES/bookshelf/wall-bookshelf-half.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    width: 700px;
+    height: 210px;
+    display: block;
+    content: "";
+    margin-left: -38px;
+}
+.bookshelf .shelf .loc {
+   position: relative;
+    top: 15px;
+    width: 100%;
+    top: 0px;
+    height: 135px;
+    left: 45px;
+}
+.bookshelf .shelf .loc > div {
+    width: 33%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.bookshelf .sample, .bookshelf-row .sample {
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    -moz-box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    -ms-box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    -o-box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    -webkit-transition: -webkit-transform 0.1s;
+    -webkit-transform: translate(0, 0);
+    -moz-transition: -moz-transform 0.1s;
+    -moz-transform: translate(0, 0);
+    -ms-transition: -ms-transform 0.1s;
+    -ms-transform: translate(0, 0);
+    -o-transition: -o-transform 0.1s;
+    -o-transform: translate(0, 0);
+    transition: transform 0.1s;
+    transform: translate(0, 0);
+}
+
+.bookshelf .thumb1, .bookshelf-row .thumb1 {
+    background-image: url(../PICTURES/bookshelf/11phy1.jpg);
+    width: 200px;
+    height: 260px;
+    background-size: 100%;
+}
+
+.bookshelf .thumb2, .bookshelf-row .thumb2 {
+    background-image: url(../PICTURES/bookshelf/11phy2.jpg);
+     width: 200px;
+    height: 260px;
+    background-size: 100%;
+}
+.bookshelf .thumb3, .bookshelf-row .thumb3 {
+    background-image: url(../PICTURES/bookshelf/11phy1.jpg);
+    width: 200px;
+    height: 260px;
+    background-size: 100%;
+}
+
+.bookshelf .thumb4, .bookshelf-row .thumb4 {
+    background-image: url(../PICTURES/bookshelf/11phy2.jpg);
+     width: 200px;
+    height: 260px;
+    background-size: 100%;
+}
+
+.bookshelf .shelf .row-2 {
+    position: relative;
+    margin-top: 20px;
+    width: 625px;
+    height: 140px;
+    margin-left: 33px;
+}
+
+.bookshelf .shelf .row-2:after {
+    height: 212px;
+}
+
+.bookshelf .hover:hover{
+    z-index: 2;
+    cursor: none;
+    background-color: white;
+    -ms-transform: scaleY(1.5);
+    -webkit-transform: scaleY(1.5); 
+     /*transform: scaleY(1.1); */
+     transform: scale3d(1.1,1.1,1);
+     transition-duration: 50;
+     -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+}
+.bookshelf .suggestion {
+    font: 12px 'District Thin', helvetica, arial;
+    color: #999;
+    text-align: center;
+    line-height: 40px;
+    font-size: x-large;
+    position: relative;
+    bottom: 40px;
+    left: 150px;
+}
+
+
+.classlogo{
+    width: 160px;
+    height: 160px;
+    margin-top: 150px;
+    float: left;
+    background-size: 100%;
+}
+.classimg1{
+    background-image: url(../PICTURES/bookshelf/class11.png);
+   
+    }
+.classimg2{
+     background-image: url(../PICTURES/bookshelf/class12.png);
+      position: relative;
+    top: 280px;
+    right: 155px;
+}
+.text{
+    position: relative;
+    bottom: 120px;
+    left: 130px;
+    width: 100px;
+    
+}
+.text h1 {
+    color: red;
+    text-shadow: 2px 1px 1px black;
+    
+}
+.text h1:hover{
+    color: blue;
+    text-shadow: 2px 1px 1px black;
+    
+}
